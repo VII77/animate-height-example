@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.AnimateHeight {
+  border: 2px solid #ddd;
+  border-radius: 3px;
+}
+
+.Content {
+  transition: opacity 500ms;
+}
+
+.rah-static--height-zero .Content,
+.rah-animating--to-height-zero .Content {
+  opacity: 0;
+}
+
+.rah-animating--down .Content {
+  transition-delay: 500ms;
+}
+
+button {
+  margin-top: 50px;
+}
